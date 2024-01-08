@@ -27,18 +27,20 @@ echo .gitignore >> .gitignore
 echo:
 echo -/ .gitignore file created.
 
-git add .
-git commit -m "Starting-out"
-echo:
-echo -/ Test commit done.
+@REM git add .
+@REM git commit -m "Starting-out"
+@REM echo:
+@REM echo -/ Initializing done.
 
 git branch gh-pages
 echo:
 echo -/ gh-pages branch created.
-git checkout gh-pages
+git checkout -b gh-pages
 echo:
 echo -/ gh-pages branch selected as current branch.
 
+git pull origin gh-pages
+echo -/ Git pull run for fetching history and preventing conflicts.
 git rm -r *
 echo:
 echo -/ all possible previous files in gh-pages removed.
