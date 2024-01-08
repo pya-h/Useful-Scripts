@@ -1,4 +1,9 @@
 @echo off
+cls
+set this_bat_file=%~nx0
+set clean_here_bat=clean_here.bat
+call %clean_here_bat% %this_bat_file%
+echo All files/folders here removed.
 rmdir /s /q .git
 echo:
 echo -/ Possible git folder removed.
@@ -13,11 +18,8 @@ echo -/ Git folder initialized.
 git remote add origin %origin%
 echo:
 echo -/ Your repo origin has been set.
-
-echo pusher.bat >> .gitignore
-echo: >> .gitignore
-echo test.bat >> .gitignore
-echo: >> .gitignore
+echo %this_bat_file% >> .gitignore
+echo %clean_here_bat% >> .gitignore
 echo .gitignore >> .gitignore
 echo:
 echo -/ .gitignore file created.
