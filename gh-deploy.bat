@@ -1,5 +1,8 @@
 @echo off
 cls
+echo !!Warning!! Evrything except the scripts will be removed here.
+echo If you don't want this, just close this script immediately, otherwise:
+pause
 set this_bat_file=%~nx0
 set clean_here_bat=clean_here.bat
 call %clean_here_bat% %this_bat_file%
