@@ -13,6 +13,7 @@ Scripts are written in Batch/bash or maybe both.<br/>
 * This one is a useful script, that will batch download urls you provide in a file called 'list.txt' near the script location,<br/>
     This it creates a download queue and does the rest. <br/>
 * No need to search for third party download apps for linux, this simple script does what's necessary.<br/> 
+* It also accepts arguments to clear or add URLs to the queue.
 
 <hr />
 <h2>auth-gh-deploy</h2>
