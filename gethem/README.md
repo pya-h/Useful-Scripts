@@ -1,3 +1,3 @@
 # RUN:
-cd gethem
+cd gethem <br/>
 bash gethem.sh
