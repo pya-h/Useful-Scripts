@@ -2,6 +2,11 @@
 Here I put some useful scripts written by myself;<br/>
 Scripts are written in Batch/bash or maybe both.<br/>
 
+
+<hr />
+<h2>bulkclone</h2>
+* Clone multiple (or all) repositories of one, at once.<br/>
+
 <hr />
 <h2>cleanjunks</h2>
 * It cleans the most space allocating trashes on the linux, by apps like apt, snap, vscode, android-studio, * cache and so on.<br/>
