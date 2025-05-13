@@ -11,6 +11,8 @@ Clone multiple repos at once by only providing your git target.
 
 * The default location to clone is current working directory; o.w: ```-dir <location>```
 
+* Clone as a certain user, allowing to clone public and private [for user] repos: ```-token <github-token>```
+
 
 ## Usage
 
