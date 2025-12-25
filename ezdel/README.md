@@ -1,0 +1,3 @@
+# Find and Delete
+Simple command to full-delete folders like node_modules, env, target, etc. nested in a path
+This may develop in to an automated deleter ...
