@@ -1,2 +1,3 @@
 #!/bin/bash
-find /media/pydea/Data/Portfolio/  -type d -name $1  -prune -print  -exec rm -rf {} +
+echo Wiping: $2     Root Address: $1 
+find $1  -type d -name $2  -prune -print  -exec rm -rf {} +
